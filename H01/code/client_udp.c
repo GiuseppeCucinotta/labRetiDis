@@ -27,13 +27,7 @@ int main() {
     printf("Invalid address.");
     exit(EXIT_FAILURE);
   }
-  /*
-  printf("Connecting...\n");
-  if (connect(sock_fd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
-    printf("Connection Failed! \n");
-    exit(EXIT_FAILURE);
-  }
-  */
+
   printf("Sending data...\n");
   if (sendto(sock_fd, hello, strlen(hello), 0, (struct sockaddr *)&serv_addr,
              sizeof(serv_addr)) < 0) {

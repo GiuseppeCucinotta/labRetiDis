@@ -10,7 +10,7 @@
  * size_t -> unsigned object lenght
  * ssize_t -> signed object length (useful for TCP bytes)
  * uint8_t -> 8 bit (1 byte)
- */
+*/
 
 /*
  *  @brief Receive exactly 'n' byte from socket 'sockfd', from buffer 'buf'.

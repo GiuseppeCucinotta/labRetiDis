@@ -16,7 +16,7 @@ int *puntatore_a_numero = &numero;
 ```
 
 # Struct
-Una struct è un modo per raggruppare variaibli di tipo diverso sotto un unico nome. Con esse, creiamo un blocco di memoria **contiguo**. I campi di una normale struct sono accessibili con il punto (.)
+Una struct è un modo per raggruppare variaibli di tipo diverso sotto un unico nome. Con esse, creiamo un blocco di memoria **contiguo**. I campi di una normale struct sono accessibili con il punto (.É)
 ## Esempio
 ```c
 typedef struct {
